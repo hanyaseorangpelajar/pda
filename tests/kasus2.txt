@@ -1,0 +1,13 @@
+Q P F
+a b
+Z Y
+Q
+Z
+F
+F
+Q a Z Q YZ       // Membaca 'a' dan menambahkan Y ke stack
+Q a Y Q YY       // Membaca 'a' dan menambahkan Y ke stack
+Q e Z P Z        // Beralih ke state P tanpa membaca input
+Q e Y P Y        // Beralih ke state P tanpa membaca input
+P b Y P e        // Membaca 'b' dan menghapus Y dari stack
+P e Z F e        // Beralih ke state final F jika stack kosong
