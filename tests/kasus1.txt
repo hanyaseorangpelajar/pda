@@ -5,12 +5,12 @@ Q
 Z
 F
 F
-Q a Z Q YZ       // Mulai membaca input 'a' dan menambahkan Y ke stack
-Q b Z Q YZ       // Mulai membaca input 'b' dan menambahkan Y ke stack
-Q a Y Q YY       // Membaca 'a' dari input dan menambah Y
-Q b Y Q YY       // Membaca 'b' dari input dan menambah Y
-Q e Z P Z        // Beralih ke state P tanpa membaca input, mempertahankan stack
-Q e Y P Y        // Beralih ke state P tanpa membaca input, mempertahankan stack
-P a Y P e        // Menghapus satu simbol Y dari stack ketika membaca 'a'
-P b Y P e        // Menghapus satu simbol Y dari stack ketika membaca 'b'
-P e Z F e        // Beralih ke state final F setelah stack kosong
+Q a Z Q YZ
+Q b Z Q YZ
+Q a Y Q YY 
+Q b Y Q YY 
+Q e Z P Z  
+Q e Y P Y
+P a Y P e
+P b Y P e
+P e Z F e

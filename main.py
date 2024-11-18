@@ -145,7 +145,7 @@ def done():
         print(f"Gagal! Kata \"{start_input}\" bukan bagian dari grammar.")
 
 
-# Program utama
+# Program exec
 filename = input("Masukkan nama file automata Anda:\n")
 while not parse_file(filename):
     print("File tidak ditemukan!")

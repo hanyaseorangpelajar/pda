@@ -5,9 +5,9 @@ Q
 Z
 F
 F
-Q a Z Q YZ       // Membaca 'a' dan menambahkan Y ke stack
-Q a Y Q YY       // Membaca 'a' dan menambahkan Y ke stack
-Q e Z P Z        // Beralih ke state P tanpa membaca input
-Q e Y P Y        // Beralih ke state P tanpa membaca input
-P b Y P e        // Membaca 'b' dan menghapus Y dari stack
-P e Z F e        // Beralih ke state final F jika stack kosong
+Q a Z Q YZ
+Q a Y Q YY
+Q e Z P Z 
+Q e Y P Y 
+P b Y P e 
+P e Z F e
